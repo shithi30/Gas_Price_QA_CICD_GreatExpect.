@@ -24,7 +24,7 @@ jobs:
         git config user.name "Shithi Maitra"
         git config user.email "shithi30@gmail.com"
         git add "Gas Price Data.txt"
-        git commit -m "Add generated file"
+        git commit -m "Updated from yml"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
