@@ -17,11 +17,13 @@ jobs:
         python-version: 3.9
 
     - name: Run Python script
-      run: python "scrape_gas_price.py"  # Replace with your Python script
+      run: python "scrape_gas_price.py"
 
     - name: Commit changes
       run: |
-        git add "Gas Price Data.txt"   # Enclose in quotes
+        git config user.name "Shithi Maitra"
+        git config user.email "shithi30@gmail.com"
+        git add "Gas Price Data.txt"
         git commit -m "Add generated file"
         git push
       env:
