@@ -3,7 +3,7 @@ name: Test Workflow
 on:
   push:
     branches:
-      - main  # Specify the branch where commits trigger the workflow (e.g., main or any branch).
+      - main
       
 jobs:
   test:
