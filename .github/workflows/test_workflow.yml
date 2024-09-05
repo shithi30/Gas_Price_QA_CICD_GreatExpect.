@@ -1,14 +1,12 @@
 name: Test Workflow
 
 on:
-  workflow_run:
-    workflows: ["Generate File and Commit to Repo"]
-    types:
-      - completed
-
+  push:
+    branches:
+      - main  # Specify the branch where commits trigger the workflow (e.g., main or any branch).
+      
 jobs:
   test:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
