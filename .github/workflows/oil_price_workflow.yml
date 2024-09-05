@@ -1,0 +1,28 @@
+name: Generate File and Commit to Repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate_file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Run Python script
+      run: python "scrape_gas_price.py"  # Replace with your Python script
+
+    - name: Commit changes
+      run: |
+        git add "Gas Price Data.txt"   # Enclose in quotes
+        git commit -m "Add generated file"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
