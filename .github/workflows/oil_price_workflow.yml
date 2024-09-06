@@ -18,9 +18,15 @@ jobs:
       with:
         python-version: 3.9
 
+    - name: Removing previous Chrome
+      run: sudo apt purge google-chrome-stable  
+  
     - name: Installing packages
       run: pip install selenium beautifulsoup4 pandas
-
+      
+    - name: Installing xvfb
+      run: sudo apt-get install xvfb
+      
     - name: Run Python script
       run: python "scrape_gas_price.py"
 
