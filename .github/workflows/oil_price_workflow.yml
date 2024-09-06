@@ -18,11 +18,11 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Run Python script
-      run: python "scrape_gas_price.py"
-
     - name: Installing packages
       run: pip install selenium beautifulsoup4 pandas
+
+    - name: Run Python script
+      run: python "scrape_gas_price.py"
 
     - name: Commit changes
       run: |
