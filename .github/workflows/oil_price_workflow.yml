@@ -29,6 +29,6 @@ jobs:
         git commit -m "Updated from yml"
 
     - name: Push changes
-      uses: ad-m/github-push-action@main
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GIT_PAT_TOKEN }}
