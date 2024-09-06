@@ -1,4 +1,4 @@
-name: Get Windsor-Essex Prices in .csv
+name: Get Windsor-Essex Prices in csv
 
 on:
   workflow_dispatch:
