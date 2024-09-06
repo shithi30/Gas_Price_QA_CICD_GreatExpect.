@@ -27,11 +27,8 @@ jobs:
         git config --global user.name "shithi30"
         git add "Gas Price Data.txt"
         git commit -m "Updated from yml"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
 
-    # - name: Push changes
-    #   uses: ad-m/github-push-action@master
-    #   with:
-    #     github_token: ${{ secrets.GIT_PAT_TOKEN }}
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GIT_PAT_TOKEN }}
