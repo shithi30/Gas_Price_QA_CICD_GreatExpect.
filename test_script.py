@@ -1,1 +1,1 @@
-print("Al test"
+raise Exception("Something went wrong!")
