@@ -23,8 +23,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.email "shithi30@gmail.com"
-        git config --global user.name "shithi30"
+        git config user.email "shithi30@gmail.com"
+        git config user.name "shithi30"
         git add "Gas Price Data.txt"
         git commit -m "Updated from yml"
 
