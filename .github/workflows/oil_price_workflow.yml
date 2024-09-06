@@ -10,6 +10,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        ref: main
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -25,4 +27,8 @@ jobs:
         git config --global user.name "shithi30"
         git add "Gas Price Data.txt"
         git commit -m "Updated from yml"
-        git push
+
+    - name: Push changes
+      uses: ad-m/github-push-action@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
