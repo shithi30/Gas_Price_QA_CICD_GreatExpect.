@@ -1,4 +1,4 @@
-name: Generate File and Commit to Repo
+name: Get Windsor-Essex Prices in .csv
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repo
       uses: actions/checkout@v2
       with:
         persist-credentials: false
@@ -18,17 +18,17 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Removing previous Chrome
+    - name: Purge Chrome
       run: sudo apt purge google-chrome-stable  
   
-    - name: Installing packages
+    - name: Install packages
       run: pip install selenium beautifulsoup4 pandas pyvirtualdisplay
       
-    - name: Installing xvfb
+    - name: Install xvfb
       run: sudo apt-get install xvfb
       
-    - name: Run Python script
-      run: python "scrape_gas_price.py"
+    - name: Run script
+      run: python "Windsor-Essex Gas Price by Station.py"
 
     - name: Commit changes
       run: |
