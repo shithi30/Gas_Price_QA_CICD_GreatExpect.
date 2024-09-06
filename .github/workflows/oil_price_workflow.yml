@@ -10,6 +10,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        persist-credentials: false 
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -28,4 +30,4 @@ jobs:
         git push
       env:
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
+        GIT_PAT_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
