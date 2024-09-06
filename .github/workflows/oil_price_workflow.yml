@@ -29,7 +29,7 @@ jobs:
         git commit -m "Updated from yml"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
+        GIT_PAT_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
 
     # - name: Push changes
     #   uses: ad-m/github-push-action@master
