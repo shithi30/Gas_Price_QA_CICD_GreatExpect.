@@ -21,6 +21,9 @@ jobs:
     - name: Run Python script
       run: python "scrape_gas_price.py"
 
+    - name: Installing packages
+      run: pip install selenium beautifulsoup4 pandas
+
     - name: Commit changes
       run: |
         git config user.email "shithi30@gmail.com"
