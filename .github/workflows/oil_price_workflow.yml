@@ -22,7 +22,7 @@ jobs:
       run: sudo apt purge google-chrome-stable  
   
     - name: Installing packages
-      run: pip install selenium beautifulsoup4 pandas
+      run: pip install selenium beautifulsoup4 pandas pyvirtualdisplay
       
     - name: Installing xvfb
       run: sudo apt-get install xvfb
