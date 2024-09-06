@@ -30,4 +30,4 @@ jobs:
         git push
       env:
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GIT_PAT_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
