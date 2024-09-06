@@ -26,6 +26,3 @@ jobs:
         git add "Gas Price Data.txt"
         git commit -m "Updated from yml"
         git push
-      env:
-        # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GIT_PAT_TOKEN }}
