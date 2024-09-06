@@ -21,6 +21,7 @@ for table in tables:
         cells = row.find_all(["td", "th"])
         cell_values = [cell.get_text(strip = True) for cell in cells]
         if cell_values[0] in ["Price", ""]: continue
+        cell_values[1] = cell_values[1].split(cell_values[2])[0]
         fuel_df = pd.concat([fuel_df, pd.DataFrame([cell_values], columns = fuel_df.columns)], ignore_index = True)
 
 # save
