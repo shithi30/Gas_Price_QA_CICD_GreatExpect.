@@ -1,9 +1,11 @@
 # import
+from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
 
 # open window
+Display(visible = 0, size = (1920, 1080)).start()
 driver = webdriver.Chrome()
 driver.get("https://windsorite.ca/gas/")
 
