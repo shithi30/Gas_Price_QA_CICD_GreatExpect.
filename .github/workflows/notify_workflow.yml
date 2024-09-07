@@ -1,6 +1,7 @@
 name: Notify Gas Price
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Data Quality Test Workflow"]
     types:
