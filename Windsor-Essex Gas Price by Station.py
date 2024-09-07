@@ -26,7 +26,7 @@ for table in tables:
         fuel_df = pd.concat([fuel_df, pd.DataFrame([cell_values], columns = fuel_df.columns)], ignore_index = True)
 
 # transform
-fuel_df = duckdb.query('''select regexp_replace(price, '[a-zA-Z]', '', 'g'), city, address, station, report_time, strptime(concat(year(current_date), ' ', report_time), '%Y %b %-d, %-H:%M %p') report_time_formatted from fuel_df''').df()
+fuel_df = duckdb.query('''select regexp_replace(price, '[a-zA-Z]', '', 'g') price, city, address, station, report_time, strptime(concat(year(current_date), ' ', report_time), '%Y %b %-d, %-H:%M %p') report_time_formatted from fuel_df''').df()
 
 # load
 fuel_df.to_csv("Today's Fuel Prices.csv", index = False)
