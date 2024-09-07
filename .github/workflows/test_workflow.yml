@@ -19,7 +19,7 @@ jobs:
         python-version: 3.9
 
     - name: Install packages
-      run: pip install great-expectations==0.16.7
+      run: pip install great-expectations==0.16.7 numpy==1.26.4
 
     - name: Run script
       run: python "Test Expectations.py"
