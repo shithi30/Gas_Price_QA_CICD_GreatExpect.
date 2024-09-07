@@ -1,6 +1,7 @@
 name: Data Quality Test Workflow
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "*"
