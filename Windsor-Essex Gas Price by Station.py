@@ -3,6 +3,7 @@ from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
+import duckdb
 
 # open window
 Display(visible = 0, size = (1920, 1080)).start()
@@ -13,7 +14,7 @@ driver.get("https://windsorite.ca/gas/")
 soup = BeautifulSoup(driver.page_source, "html.parser")
 tables = soup.find_all("table", attrs = {"id": "prices"})[1:]
 
-# scrape
+# extract
 fuel_df = pd.DataFrame(columns = ["price", "station", "address", "city", "report_time"])
 for table in tables: 
     rows = table.find_all("tr")
@@ -24,7 +25,10 @@ for table in tables:
         cell_values[1] = cell_values[1].split(cell_values[2])[0]
         fuel_df = pd.concat([fuel_df, pd.DataFrame([cell_values], columns = fuel_df.columns)], ignore_index = True)
 
-# save
+# transform
+fuel_df = duckdb.query('''select *, strptime(concat(year(current_date), ' ', report_time), '%Y %b %-d, %-H:%M %p') report_time_formatted from df''').df()
+
+# load
 fuel_df.to_csv("Today's Fuel Prices.csv", index = False)
 
 # close window
