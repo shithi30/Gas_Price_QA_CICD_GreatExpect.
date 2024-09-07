@@ -1,16 +1,16 @@
-name: Test Workflow
+name: Data Quality Test Workflow
 
 on:
   push:
     branches:
-      - '*'
+      - "*"
       
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repo
       uses: actions/checkout@v2
 
     - name: Set up Python
@@ -18,5 +18,8 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Run Python script
+    - name: Install packages
+      run: pip install great-expectations==0.16.7
+
+    - name: Run script
       run: python "test_script.py"
