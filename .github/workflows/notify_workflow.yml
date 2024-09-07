@@ -2,7 +2,7 @@ name: Notify Gas Price
 
 on:
   workflow_run:
-    workflows: ["Test Workflow"]
+    workflows: ["Data Quality Test Workflow"]
     types:
       - completed
 
