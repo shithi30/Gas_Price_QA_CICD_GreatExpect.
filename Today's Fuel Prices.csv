@@ -6,7 +6,7 @@ price,city,address,station,report_time,report_time_formatted
 141.9,Windsor,2235 Huron Church Rd,Petro-Canada,"Sep 7, 5:13 PM",2024-09-07 17:13:00
 141.9,Windsor,3178 Dougall Ave,Shell,"Sep 7, 3:53 PM",2024-09-07 15:53:00
 141.9,Windsor,11475 Tecumseh Rd E,Shell,"Sep 7, 3:41 PM",2024-09-07 15:41:00
-141.9,Windsor,50 Tecumseh Rd W,Petro-Canada,"Sep 7, 10:51 AM",2024-09-07 10:51:00
+141.9kowm,Windsor,50 Tecumseh Rd W,Petro-Canada,"Sep 7, 10:51 AM",2024-09-07 10:51:00
 142.5,Windsor,2430 Dougall Ave,Mobil,"Sep 7, 5:17 PM",2024-09-07 17:17:00
 142.9,Windsor,2139 Huron Church Rd,Esso,"Sep 7, 5:13 PM",2024-09-07 17:13:00
 143.7,Amherstburg,9 Sandwich St N,Shell,"Sep 7, 4:23 PM",2024-09-07 16:23:00
