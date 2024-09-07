@@ -22,4 +22,4 @@ jobs:
         python-version: 3.9
 
     - name: Run Python script
-      run: python "notify.py"
+      run: python "Notify Gas Price.py"
