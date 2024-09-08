@@ -1,4 +1,4 @@
-This repo holds competitive fuel price analytics, for the most cost-efficient refuelling of our family vehicle. <br>
+This repository holds competitive fuel price analytics, for the most cost-efficient refueling of our family vehicle. <br>
 
 Tech stack: ```Selenium + bs4``` ```Great Expectations``` ```duckdb```  ```GitHub Actions```<br>
 
