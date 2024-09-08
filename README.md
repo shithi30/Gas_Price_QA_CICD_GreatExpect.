@@ -11,7 +11,7 @@ test4 = fuel_df_gx.expect_column_values_to_be_in_set("city", ["Windsor", "Leamin
 test5 = fuel_df_gx.expect_column_values_to_be_between("report_time_formatted", min_value = datetime.now() - timedelta(hours = 36), max_value = None) 
  ```
 
-### Notifiers - Auto. Emails
+### Notifiers - Scheduled Emails
 <p align="center">
   <img width="400" alt="c5" src="https://github.com/user-attachments/assets/450eccf3-adf8-4dc2-8251-8435a6344e0b"><br>
 </p>
