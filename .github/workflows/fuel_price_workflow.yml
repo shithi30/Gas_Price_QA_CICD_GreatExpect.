@@ -2,6 +2,8 @@ name: Get Windsor-Essex Prices in csv
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * *"
 
 jobs:
   generate_file:
