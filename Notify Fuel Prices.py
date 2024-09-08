@@ -6,10 +6,10 @@ import smtplib
 from email.mime.text import MIMEText
 from pretty_html_table import build_table
 
-# fuel data
+# fuel - data
 fuel_df = pd.read_csv("https://github.com/shithi30/Gas_Price_QA_CICD_GreatExpectations/blob/main/Today's%20Fuel%20Prices.csv?raw=true")
 
-# fuel summary
+# fuel - summary
 qry = '''
 select price, station, address, city, report_time 
 from fuel_df 
