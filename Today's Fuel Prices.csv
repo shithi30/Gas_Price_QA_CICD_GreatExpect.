@@ -1,51 +1,46 @@
 price,station,address,city,report_time,report_time_formatted
-136.9,Costco,4411 Walker Rd,Windsor,"Sep 10, 3:04 PM",2024-09-10 15:04:00
-138.9,Shell,5501 Ojibway Pkwy,Windsor,"Sep 9, 7:51 PM",2024-09-09 19:51:00
-139.1,7-Eleven,278 Tecumseh Rd E,Windsor,"Sep 10, 12:33 PM",2024-09-10 12:33:00
-139.6,Pioneer,4560 Howard Ave,Windsor,"Sep 10, 8:46 AM",2024-09-10 08:46:00
-139.6,Circle K,4675 Seminole St,Windsor,"Sep 9, 6:25 PM",2024-09-09 18:25:00
-139.9,Pioneer,2380 Walker Rd,Windsor,"Sep 10, 3:20 PM",2024-09-10 15:20:00
-139.9,Pioneer,9985 Tecumseh Rd E,Windsor,"Sep 10, 3:13 PM",2024-09-10 15:13:00
-139.9,Mobil,2430 Dougall Ave,Windsor,"Sep 10, 3:06 PM",2024-09-10 15:06:00
-139.9,Shell,11475 Tecumseh Rd E,Windsor,"Sep 10, 2:38 PM",2024-09-10 14:38:00
-140.3,Petro-Canada,7400 Tecumseh Rd E,Windsor,"Sep 10, 3:11 PM",2024-09-10 15:11:00
-143.9,Canadian Tire,421 Sandwich St S,Amherstburg,"Sep 10, 3:09 PM",2024-09-10 15:09:00
-143.9,Shell,9 Sandwich St N,Amherstburg,"Sep 10, 10:54 AM",2024-09-10 10:54:00
-144.6,UPI Energy,392 Notre Dame St,Belle River,"Sep 10, 9:01 AM",2024-09-10 09:01:00
-145.9,Petro-Canada,1635 Essex County Rd 22,Belle River,"Sep 10, 8:42 AM",2024-09-10 08:42:00
-149.9,Canadian Tire,21 Talbot St S,Essex,"Sep 9, 10:17 PM",2024-09-09 22:17:00
-149.9,Esso,196 Talbot St N,Essex,"Sep 9, 10:07 PM",2024-09-09 22:07:00
-149.9,Jack's Auto Service & Gas Bar,200 Talbot St S,Essex,"Sep 9, 11:54 AM",2024-09-09 11:54:00
-149.0,Arner Stop,1958 CR-20,Kingsville,"Sep 10, 11:39 AM",2024-09-10 11:39:00
-149.9,Esso,1568 Seacliff Dr,Kingsville,"Sep 10, 1:07 PM",2024-09-10 13:07:00
-152.0,Division Gas,1727 Division Rd N,Kingsville,"Sep 10, 2:27 PM",2024-09-10 14:27:00
-153.9,Esso,341 Main St E,Kingsville,"Sep 10, 11:26 AM",2024-09-10 11:26:00
-156.0,Shell,84 Division Rd N,Kingsville,"Sep 10, 11:35 AM",2024-09-10 11:35:00
-140.9,Ultramar,5877 Malden Rd,LaSalle,"Sep 10, 11:56 AM",2024-09-10 11:56:00
-141.7,Mobil,2596 Front Rd,LaSalle,"Sep 10, 10:34 AM",2024-09-10 10:34:00
-142.9,Esso,6495 Malden Rd,LaSalle,"Sep 10, 11:58 AM",2024-09-10 11:58:00
-143.7,Petro-Canada,1915 Front Rd,LaSalle,"Sep 10, 12:34 PM",2024-09-10 12:34:00
-143.7,Esso,751 Front Rd,LaSalle,"Sep 10, 12:33 PM",2024-09-10 12:33:00
-130.6,Caldwell Gas & Variety,1032 Mersea Rd 1,Leamington,"Sep 10, 3:15 PM",2024-09-10 15:15:00
-142.9,Mobil,201 Talbot St E,Leamington,"Sep 9, 5:59 PM",2024-09-09 17:59:00
-144.9,Breakaway,448 Talbot St W,Leamington,"Sep 10, 2:54 PM",2024-09-10 14:54:00
-146.9,UPI Energy,468 Hwy 77,Leamington,"Sep 10, 1:26 PM",2024-09-10 13:26:00
-146.9,Canadian Tire,81 Talbot St W,Leamington,"Sep 10, 7:30 AM",2024-09-10 07:30:00
-149.9,Circle K,2 Seacliff Dr W,Leamington,"Sep 10, 12:27 PM",2024-09-10 12:27:00
-149.9,Esso,1 Wilkinson Dr,Leamington,"Sep 10, 7:31 AM",2024-09-10 07:31:00
-149.9,Petro-Canada,160 Erie St N,Leamington,"Sep 10, 7:31 AM",2024-09-10 07:31:00
-149.9,7-Eleven,138 Erie St S,Leamington,"Sep 10, 7:29 AM",2024-09-10 07:29:00
-149.9,Shell,40 Seacliff Dr W,Leamington,"Sep 10, 7:29 AM",2024-09-10 07:29:00
-142.6,Petro-Canada,7148 Hwy 3,Maidstone,"Sep 9, 1:08 PM",2024-09-09 13:08:00
-145.9,Esso,2 CR-46,Maidstone,"Sep 10, 1:17 PM",2024-09-10 13:17:00
-144.7,Pioneer,13366 CR-42,Tecumseh,"Sep 10, 8:30 AM",2024-09-10 08:30:00
-144.9,Shell,274 CR-42,Tecumseh,"Sep 10, 3:26 PM",2024-09-10 15:26:00
-145.0,Petro-Canada,3025 Manning Rd,Tecumseh,"Sep 10, 8:30 AM",2024-09-10 08:30:00
-145.6,Flying J,5470 Walker Rd,Tecumseh,"Sep 10, 7:52 AM",2024-09-10 07:52:00
-145.9,Petro-Canada,13345 Tecumseh Rd E,Tecumseh,"Sep 10, 5:52 AM",2024-09-10 05:52:00
-149.3,UPI Energy,11 Mill St E,Tilbury,"Sep 10, 10:16 AM",2024-09-10 10:16:00
-149.9,Flying J,19325 Essex CR-42,Tilbury,"Sep 10, 3:03 PM",2024-09-10 15:03:00
-149.9,Esso,3613 Queen's Line,Tilbury,"Sep 10, 10:15 AM",2024-09-10 10:15:00
-149.9,Mac's,90 Queen St N,Tilbury,"Sep 10, 8:28 AM",2024-09-10 08:28:00
-149.9,Ultramar,2 Mill St W,Tilbury,"Sep 10, 8:27 AM",2024-09-10 08:27:00
-158.7,Canadian Tire,Hwy 401 Eastbound,Tilbury,"Sep 10, 4:09 AM",2024-09-10 04:09:00
+136.9,Esso,4040 CR-46,Windsor,"Sep 11, 10:41 AM",2024-09-11 10:41:00
+136.9,Shell,11475 Tecumseh Rd E,Windsor,"Sep 11, 6:23 AM",2024-09-11 06:23:00
+137.3,Pioneer,3124 Jefferson Blvd,Windsor,"Sep 11, 7:35 AM",2024-09-11 07:35:00
+137.6,Esso,2900 Howard Ave,Windsor,"Sep 11, 1:32 AM",2024-09-11 01:32:00
+137.9,Pioneer,4560 Howard Ave,Windsor,"Sep 10, 10:24 PM",2024-09-10 22:24:00
+138.9,Shell,1410 Huron Church Rd,Windsor,"Sep 11, 3:47 AM",2024-09-11 03:47:00
+141.9,Costco,4411 Walker Rd,Windsor,"Sep 11, 2:47 PM",2024-09-11 14:47:00
+142.6,Circle K,4675 Seminole St,Windsor,"Sep 11, 2:50 PM",2024-09-11 14:50:00
+142.9,Esso,5300 Walker Rd S,Windsor,"Sep 11, 10:41 AM",2024-09-11 10:41:00
+142.9,Esso,5175 Walker Rd S,Windsor,"Sep 11, 10:41 AM",2024-09-11 10:41:00
+141.7,Shell,9 Sandwich St N,Amherstburg,"Sep 11, 4:28 AM",2024-09-11 04:28:00
+143.8,Canadian Tire,421 Sandwich St S,Amherstburg,"Sep 11, 9:59 AM",2024-09-11 09:59:00
+146.6,UPI Energy,392 Notre Dame St,Belle River,"Sep 11, 10:56 AM",2024-09-11 10:56:00
+147.9,Petro-Canada,1635 Essex County Rd 22,Belle River,"Sep 11, 9:56 AM",2024-09-11 09:56:00
+147.9,Jack's Auto Service & Gas Bar,200 Talbot St S,Essex,"Sep 11, 3:23 PM",2024-09-11 15:23:00
+147.9,Canadian Tire,21 Talbot St S,Essex,"Sep 11, 10:05 AM",2024-09-11 10:05:00
+149.9,Esso,196 Talbot St N,Essex,"Sep 11, 3:11 PM",2024-09-11 15:11:00
+149.0,Arner Stop,1958 CR-20,Kingsville,"Sep 11, 5:22 AM",2024-09-11 05:22:00
+149.9,Esso,341 Main St E,Kingsville,"Sep 11, 12:33 PM",2024-09-11 12:33:00
+149.9,Esso,1568 Seacliff Dr,Kingsville,"Sep 11, 2:31 AM",2024-09-11 02:31:00
+155.0,Division Gas,1727 Division Rd N,Kingsville,"Sep 10, 10:08 PM",2024-09-10 22:08:00
+156.0,Shell,84 Division Rd N,Kingsville,"Sep 10, 10:08 PM",2024-09-10 22:08:00
+140.9,Ultramar,5877 Malden Rd,LaSalle,"Sep 11, 2:52 PM",2024-09-11 14:52:00
+141.7,Petro-Canada,1915 Front Rd,LaSalle,"Sep 11, 2:51 PM",2024-09-11 14:51:00
+141.7,Mobil,2596 Front Rd,LaSalle,"Sep 11, 2:50 PM",2024-09-11 14:50:00
+142.9,Esso,6495 Malden Rd,LaSalle,"Sep 11, 2:33 PM",2024-09-11 14:33:00
+142.9,Esso,751 Front Rd,LaSalle,"Sep 11, 10:25 AM",2024-09-11 10:25:00
+129.5,Caldwell Gas & Variety,1032 Mersea Rd 1,Leamington,"Sep 11, 3:23 PM",2024-09-11 15:23:00
+142.9,Breakaway,448 Talbot St W,Leamington,"Sep 11, 2:45 PM",2024-09-11 14:45:00
+142.9,Canadian Tire,81 Talbot St W,Leamington,"Sep 10, 5:46 PM",2024-09-10 17:46:00
+145.9,Petro-Canada,160 Erie St N,Leamington,"Sep 11, 4:06 AM",2024-09-11 04:06:00
+146.9,UPI Energy,468 Hwy 77,Leamington,"Sep 10, 10:09 PM",2024-09-10 22:09:00
+149.9,Shell,40 Seacliff Dr W,Leamington,"Sep 11, 3:26 PM",2024-09-11 15:26:00
+149.9,Circle K,2 Seacliff Dr W,Leamington,"Sep 11, 10:25 AM",2024-09-11 10:25:00
+149.9,7-Eleven,138 Erie St S,Leamington,"Sep 10, 9:25 PM",2024-09-10 21:25:00
+146.9,Esso,2 CR-46,Maidstone,"Sep 11, 1:03 PM",2024-09-11 13:03:00
+147.6,Petro-Canada,7148 Hwy 3,Maidstone,"Sep 11, 10:13 AM",2024-09-11 10:13:00
+144.1,Pioneer,13366 CR-42,Tecumseh,"Sep 11, 1:18 PM",2024-09-11 13:18:00
+144.4,Petro-Canada,3025 Manning Rd,Tecumseh,"Sep 11, 1:19 PM",2024-09-11 13:19:00
+147.6,Flying J,5470 Walker Rd,Tecumseh,"Sep 11, 7:45 AM",2024-09-11 07:45:00
+149.9,Flying J,19325 Essex CR-42,Tilbury,"Sep 11, 3:01 PM",2024-09-11 15:01:00
+149.9,UPI Energy,11 Mill St E,Tilbury,"Sep 11, 11:44 AM",2024-09-11 11:44:00
+149.9,Mac's,90 Queen St N,Tilbury,"Sep 11, 11:43 AM",2024-09-11 11:43:00
+149.9,Ultramar,2 Mill St W,Tilbury,"Sep 11, 11:43 AM",2024-09-11 11:43:00
+149.9,Esso,71 Mill St W,Tilbury,"Sep 11, 11:42 AM",2024-09-11 11:42:00
