@@ -13,7 +13,7 @@ fuel_df = pd.read_csv("https://github.com/shithi30/Gas_Price_QA_CICD_GreatExpect
 qry = '''
 select price, station, address, city, report_time 
 from fuel_df 
-where city = 'Windsor' and address like '%Tecumseh%'
+where city = 'Windsor' and address like '%Tecumseh%' and price < 140
 '''
 summ_df = duckdb.query(qry).df()
 
