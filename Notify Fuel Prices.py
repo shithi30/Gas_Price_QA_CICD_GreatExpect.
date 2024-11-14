@@ -13,13 +13,13 @@ fuel_df = pd.read_csv("https://github.com/shithi30/Gas_Price_QA_CICD_GreatExpect
 qry = '''
 select price, station, address, city, report_time 
 from fuel_df 
-where city = 'Windsor' and address like '%Tecumseh%' and price < 150
+where city = 'Windsor' and address like '%Tecumseh%' and price < 140
 '''
 summ_df = duckdb.query(qry).df()
 
 # email - from, to, body
 sender_email = "shithi30@gmail.com"
-receiver_email = ["shithi30@outlook.com"]
+receiver_email = ["shithi30@outlook.com", "Purnabchowdhury@gmail.com"]
 body = '''
 Please find below, today's gasoline prices (¢/L).
 ''' + build_table(summ_df, "yellow_dark", font_size = "12px", text_align = "left") + '''
