@@ -1,6 +1,7 @@
 price,station,address,city,report_time,report_time_formatted
-141.9,Costco,4411 Walker Rd,Windsor,"Nov 14, 3:57 PM",2024-11-14 15:57:00
+141.9,Costco,4411 Walker Rd,Windsor,"Nov 14, 4:23 PM",2024-11-14 16:23:00
 143.6,Petro-Canada,7945 Wyandotte St E,Windsor,"Nov 14, 4:13 PM",2024-11-14 16:13:00
+143.9,Esso,2900 Howard Ave,Windsor,"Nov 14, 4:29 PM",2024-11-14 16:29:00
 143.9,Shell,5501 Ojibway Pkwy,Windsor,"Nov 14, 4:09 PM",2024-11-14 16:09:00
 143.9,Shell,3178 Dougall Ave,Windsor,"Nov 13, 9:38 PM",2024-11-13 21:38:00
 144.1,7-Eleven,278 Tecumseh Rd E,Windsor,"Nov 14, 3:45 PM",2024-11-14 15:45:00
@@ -8,11 +9,10 @@ price,station,address,city,report_time,report_time_formatted
 145.9,Esso,1527 Provincial Rd,Windsor,"Nov 14, 3:23 PM",2024-11-14 15:23:00
 146.3,Esso,7887 Tecumseh Rd E,Windsor,"Nov 14, 4:01 PM",2024-11-14 16:01:00
 146.3,Petro-Canada,7400 Tecumseh Rd E,Windsor,"Nov 14, 4:01 PM",2024-11-14 16:01:00
-146.3,Pioneer,9985 Tecumseh Rd E,Windsor,"Nov 14, 3:45 PM",2024-11-14 15:45:00
 146.9,Shell,9 Sandwich St N,Amherstburg,"Nov 14, 9:37 AM",2024-11-14 09:37:00
 146.9,Canadian Tire,421 Sandwich St S,Amherstburg,"Nov 14, 9:32 AM",2024-11-14 09:32:00
 155.9,Edgewater Gas,1130 Front Rd N,Amherstburg,"Nov 12, 10:27 AM",2024-11-12 10:27:00
-146.9,Petro-Canada,1635 Essex County Rd 22,Belle River,"Nov 14, 2:50 PM",2024-11-14 14:50:00
+146.9,Petro-Canada,1635 Essex County Rd 22,Belle River,"Nov 14, 4:27 PM",2024-11-14 16:27:00
 148.6,UPI Energy,392 Notre Dame St,Belle River,"Nov 14, 2:38 PM",2024-11-14 14:38:00
 145.9,Canadian Tire,21 Talbot St S,Essex,"Nov 13, 7:22 PM",2024-11-13 19:22:00
 145.9,Esso,196 Talbot St N,Essex,"Nov 12, 6:13 PM",2024-11-12 18:13:00
