@@ -39,4 +39,4 @@ html_msg["To"] = ", ".join(receiver_email)
 # email - send
 with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
    server.login(sender_email, os.getenv("EMAIL_PASS"))
-   server.sendmail(sender_email, receiver_email, html_msg.as_string())
+   if summ_df.shape[0] > 0: server.sendmail(sender_email, receiver_email, html_msg.as_string())
